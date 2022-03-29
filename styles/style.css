@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+/* :root {
+} */
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: #fffbeb;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+header {
+  position: sticky;
+  background-color: #d97706;
+  height: max(15vh, 100px);
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 2px 5px 1px rgba(41, 41, 41, 0.767);
+}
+
+h1 {
+  margin-left: 4rem;
+  color: black;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+}
+
+label {
+  padding-bottom: 0.5rem;
+}
+
+input {
+  margin-bottom: 1.5rem;
+  height: 28px;
+  padding-left: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+input:focus {
+  outline-style: none;
+}
+
+form > button {
+  margin-top: 2rem;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin: 4% 5%;
+  gap: 2rem;
+}
+
+.testitem {
+  background-color: #92400e;
+  box-shadow: 2px 2px 4px 2px rgba(58, 58, 58, 0.493);
+  height: 300px;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.testitem > div {
+  position: relative;
+  overflow-wrap: break-word;
+  color: white;
+  width: 80%;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+
+.testitem > div > label {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.testitem > div > input {
+  width: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.testitem > div:nth-of-type(4) {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+/* 
+.readButton {
+} */
+
+.popForm {
+  position: absolute;
+  display: ;
+  background-color: #bfdbfe;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.404);
+  border-radius: 1rem;
+  height: 400px;
+  width: 300px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.addBook {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fffbeb;
+  border: none;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 7rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.addBook:hover {
+  background-color: #dbeafe;
+}
+
+.submit {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1.5rem;
+  margin: auto;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 7rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.submit:hover {
+  background-color: #92400e;
+  color: white;
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0.7rem;
+}
+
+.check > input {
+  width: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.check > label {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.delButton {
+  margin-bottom: 0;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 7rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.delButton:hover {
+  background-color: #fcd34d;
+}
